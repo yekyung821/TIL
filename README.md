@@ -3,6 +3,7 @@
 매일매일 새롭게 배운 지식을 기록하고 꾸준히 성장하기 위한 저장소입니다. 🌱
 
 ## 📝 최근 기록
+- 2026-04-01: [에이전틱 AI 논문 리뷰: Just-in-Time World Modeling](./AI/Just_In_Time_World_Modeling.md)
 - 2026-03-31: [LangGraph 개념 및 심화 RAG(Agentic RAG) 학습](./AI/LangGraph_Agentic_RAG.md)
 - 2026-03-19: 개발 환경 점검 및 TIL 저장소 리드미 구조 개선
 - 2026-03-16: 이력서 작성 전략 수립 및 TIL 저장소 생성
