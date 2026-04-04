@@ -3,6 +3,7 @@
 매일매일 새롭게 배운 지식을 기록하고 꾸준히 성장하기 위한 저장소입니다. 🌱
 
 ## 📝 최근 기록
+- 2026-04-05: [논문 요약: 잠재공간 테스트타임 추론 (Latent Reasoning, arXiv:2502.05171)](./AI/Latent_Reasoning_Test_Time_Compute_2502.05171.md)
 - 2026-04-04: [에이전틱 AI 프레임워크 아키텍처: The Auton Agentic AI Framework](./AI/Auton_Agentic_AI_Framework.md)
 - 2026-04-02: [에이전틱 AI 멀티에이전트 논문: Training-Free Agentic AI](./AI/Training_Free_Agentic_AI.md)
 - 2026-04-01: [에이전틱 AI 논문 리뷰: Just-in-Time World Modeling](./AI/Just_In_Time_World_Modeling.md)
