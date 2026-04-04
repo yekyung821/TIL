@@ -6,8 +6,6 @@
 - **제목:** *Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach*
 - **저자:** Jonas Geiping et al.
 
-그림은 HTML 페이지에 올라온 걸 그대로 링크해 뒀다. 미리보기에서 안 뜨면 HTML 쪽을 열면 된다.
-
 ---
 
 ## Research Question
