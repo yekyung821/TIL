@@ -3,6 +3,7 @@
 매일매일 새롭게 배운 지식을 기록하고 꾸준히 성장하기 위한 저장소입니다. 🌱
 
 ## 📝 최근 기록
+- 2026-04-11: [Janus 논문 정리: 통합 멀티모달 이해·생성을 위한 시각 인코딩 분리 (arXiv:2410.13848)](./AI/Janus_Decoupling_Visual_Encoding_2410.13848.md)
 - 2026-04-08: [CLIP 원논문 상세 정리: 자연어 지도 기반 전이 학습 (arXiv:2103.00020)](./AI/CLIP_Natural_Language_Supervision_2103.00020.md)
 - 2026-04-06: [Whisper 원논문: 대규모 약지도 음성 인식 (arXiv:2212.04356)](./AI/Whisper_Weak_Supervision_2212.04356.md)
 - 2026-04-05: [논문 요약: 잠재공간 테스트타임 추론 (Latent Reasoning, arXiv:2502.05171)](./AI/Latent_Reasoning_Test_Time_Compute_2502.05171.md)
