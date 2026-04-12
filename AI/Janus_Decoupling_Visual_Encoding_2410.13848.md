@@ -1,11 +1,9 @@
 # Janus 논문 정리: 통합 멀티모달 이해·생성을 위한 시각 인코딩 분리 (arXiv:2410.13848)
 
-오늘은 *Janus: Decoupling Visual Encoding for Unified Multimodal Understanding and Generation* (DeepSeek-AI 등)을 읽고, 동기·아키텍처·학습·실험·한계까지 정리했다.
+*Janus: Decoupling Visual Encoding for Unified Multimodal Understanding and Generation* (DeepSeek-AI 등)을 읽고 동기·아키텍처·학습·실험·한계까지 정리했다. **정리일:** 2026-04-12
 
-- 원문: [arXiv:2410.13848](https://arxiv.org/abs/2410.13848)
-- PDF: [https://arxiv.org/pdf/2410.13848](https://arxiv.org/pdf/2410.13848)
-- 프로젝트: [https://github.com/deepseek-ai/Janus](https://github.com/deepseek-ai/Janus)
-- 핵심 키워드: Unified multimodal model, Decoupled visual encoding, Autoregressive generation, SigLIP, VQ tokenizer
+- **링크:** [arXiv:2410.13848](https://arxiv.org/abs/2410.13848) · [PDF](https://arxiv.org/pdf/2410.13848) · [GitHub: deepseek-ai/Janus](https://github.com/deepseek-ai/Janus)
+- **핵심 키워드:** Unified multimodal model, Decoupled visual encoding, Autoregressive generation, SigLIP, VQ tokenizer
 
 ---
 
@@ -82,18 +80,10 @@
 
 ## 결론 및 시사점
 
-**의미**: “통합 = 반드시 하나의 비전 인코더”가 아니라, 처리 백본은 하나로 두고 **인코딩만 분리**해도 단순하고 확장 가능하며, 이해·생성 동시 목표에서 실용적인 타협을 줄일 수 있다는 점을 보여 준다. 향후 점군, EEG, 오디오 등 다른 입력에도 독립 인코더 + 단일 트랜스포머로 확장할 여지를 논한다.
+**의미**: “통합 = 반드시 하나의 비전 인코더”가 아니라, 처리 백본은 하나로 두고 **인코딩만 분리**해도 단순하고 확장 가능하며, 이해·생성 동시 목표에서 실용적인 타협을 줄일 수 있다는 점을 보여 준다. 향후 포인트 클라우드, EEG, 오디오 등 다른 입력에도 독립 인코더 + 단일 트랜스포머로 확장할 여지를 논한다.
 
 **한계·유의점**
 
 1. 본문 기준 생성 해상도 **384×384** 등으로 SOTA 확산 모델의 고해상도·물리적 사실성과 직접 비교는 맥락을 같이 봐야 한다.
 2. 데이터·학습 스케일·내부 데이터 의존도가 크다.
 3. 부록 **semantic tokenizer**는 ablation용이라 메인 결과와 혼동하지 않는 것이 좋다.
-
----
-
-## 참고 링크
-
-- [PDF](https://arxiv.org/pdf/2410.13848)
-- [Abstract](https://arxiv.org/abs/2410.13848)
-- [GitHub: deepseek-ai/Janus](https://github.com/deepseek-ai/Janus)
