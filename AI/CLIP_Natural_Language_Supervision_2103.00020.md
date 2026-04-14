@@ -1,11 +1,11 @@
 # [논문 스터디] Learning Transferable Visual Models From Natural Language Supervision (CLIP)
 
-> **작성일**: 2026.04.15
-> **Institution**: OpenAI
-> **Year/Venue**: 2021 / ICML
-> **Paper**: [arXiv:2103.00020](https://arxiv.org/abs/2103.00020)
-> **Code**: [GitHub](https://github.com/openai/CLIP)
-> **한줄평**: 자연어 supervision을 활용한 대규모 대조 학습으로, 컴퓨터 비전의 Zero-shot 전이 능력을 폭발적으로 끌어올린 멀티모달의 뼈대.
+> - **작성일**: 2026.04.15
+> - **Institution**: OpenAI
+> - **Year/Venue**: 2021 / ICML
+> - **Paper**: [arXiv:2103.00020](https://arxiv.org/abs/2103.00020)
+> - **Code**: [GitHub](https://github.com/openai/CLIP)
+> - **한줄평**: 자연어 supervision을 활용한 대규모 대조 학습으로, 컴퓨터 비전의 Zero-shot 전이 능력을 폭발적으로 끌어올린 멀티모달의 뼈대.
 
 ---
 
