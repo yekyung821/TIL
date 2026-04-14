@@ -35,6 +35,17 @@
 ---
 
 ## 2. 아키텍처 및 런타임 전략 (Architecture & Runtime)
+
+* **주요 수학적 포멀리즘 (Key Formalisms)**:
+  - **Agentic System Tuple**: 에이전트를 확장된 POMDP(부분 관찰 마르코프 결정 과정)로 정의하여 '인지'와 '행동'을 수학적으로 분리함.
+    $$ \mathcal{T} = \langle S, \Omega, A, Z, M, P, R \rangle $$
+    *(여기서 $Z$는 외부 환경에 영향을 주지 않는 '잠재적 추론 공간'을 의미)*
+  - **Constraint Manifold (제약 매니폴드)**: 안전한 서브스페이스 $\mathcal{C}$로 에이전트의 정책을 투영하여 원천적으로 위험 행동을 차단.
+    $$ \mathcal{C} = \{a \in A \mid c_i(a) = 1 \quad \forall i \in \{1, \dots, k\}\} $$
+    $$ \pi_{\text{safe}}(a|s) = \frac{\pi_{\text{raw}}(a|s) \cdot \mathbb{I}[a \in \mathcal{C}]}{\int_A \pi_{\text{raw}}(x|s) \cdot \mathbb{I}[x \in \mathcal{C}] dx} $$
+  - **Economic Constraints (KKT 조건)**: 토큰 소비 예산 $B$에 맞추어 추론 깊이와 비용을 조절하는 라그랑주 최적화.
+    $$ \mathcal{L}(\theta, \lambda) = J(\theta) - \lambda(C(\theta) - B) $$
+
 * **아키텍처 구조 (표 활용)**:
 
 | 구성 요소 | 역할 및 특징 |
