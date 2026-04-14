@@ -11,7 +11,7 @@
 - 2026-04-04: [에이전틱 AI 프레임워크 아키텍처: The Auton Agentic AI Framework](./AI/Auton_Agentic_AI_Framework_2602.23720.md)
 - 2026-04-02: [에이전틱 AI 멀티에이전트 논문: Training-Free Agentic AI](./AI/Training_Free_Agentic_AI_2603.13256.md)
 - 2026-04-01: [에이전틱 AI 논문 리뷰: Just-in-Time World Modeling](./AI/Just_In_Time_World_Modeling_2601.14514.md)
-- 2026-03-31: [LangGraph 개념 및 심화 RAG(Agentic RAG) 학습](./AI/LangGraph_Agentic_RAG.md)
+- 2026-03-31: [LangGraph 개념 및 심화 RAG(Agentic RAG) 학습](./AI/Tech_LangGraph_Agentic_RAG.md)
 - 2026-03-19: 개발 환경 점검 및 TIL 저장소 리드미 구조 개선
 - 2026-03-16: 이력서 작성 전략 수립 및 TIL 저장소 생성
 - 2026-03-19: Git 커밋 히스토리 추적 원리 학습 및 올바른 TIL 작성 방향성 고민
