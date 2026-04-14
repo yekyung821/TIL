@@ -1,7 +1,10 @@
 # [논문 스터디] Janus-Pro: Unified Multimodal Understanding and Generation with Data and Model Scaling
 
 > **작성일**: 2026.04.14
+> **Institution**: DeepSeek-AI
+> **Year/Venue**: 2025 / arXiv
 > **Paper**: [arXiv:2501.17811](https://arxiv.org/abs/2501.17811)
+> **Code**: [Official GitHub](https://github.com/deepseek-ai/Janus)
 > **한줄평**: 전작 Janus의 '디커플링 뼈대' 위에 '7B 스케일링 + 대규모 데이터 근육'을 붙여 완성한 멀티모달 생태계의 완전체.
 
 ---
@@ -104,6 +107,9 @@
 
 * **Scaling Law의 위력 증명**
   * 완벽한 아키텍처(`디커플링`)에 압도적 체급(`7B & 대규모 데이터`)이 더해졌을 때 일어나는 시너지를 입증함.
-* **타협 없는 범용 멀티모달의 시대**
+* **한계점 (Limitations)**
+  * 여전히 이미지 해상도(384x384)가 최근의 고해상도 생성 모델들(SDXL 등)에 비해 낮아 픽셀 수준의 초고화질 생성에는 한계가 있을 수 있음.
+  * 영상(Video)이나 3D 등 더 복잡한 모달리티로의 확장은 아직 과제로 남아 있음.
+* **타협 없는 범용 멀티모달의 시대 (시사점)**
   * '보는 것(이해)'과 '그리는 것(생성)' 사이의 성능 줄다리기를 끝냄.
   * 차세대 **범용 멀티모달 AI (Unified Multimodal Model)**가 나아가야 할 가장 확실하고 모범적인 해답(Milestone)을 제시함.
