@@ -6,6 +6,7 @@
 
 | 논문 발표일 | 분야 | 논문명 | 핵심 아이디어 | 주요 성과 | 시사점 | 한계점 |
 |---|---|---|---|---|---|---|
+| 2017.06 | NLP Foundation | [Attention Is All You Need (arXiv:1706.03762)](./AI/Attention_Is_All_You_Need_1706.03762.md) | 순환 구조 없이 Self-Attention만으로 시퀀스 변환을 수행하는 Transformer 제안 | WMT 번역 과제에서 SOTA를 달성하며 학습 병렬성과 성능을 동시에 입증 | 현대 LLM/멀티모달 모델의 표준 아키텍처 출발점이 됨 | Attention의 $O(n^2)$ 복잡도로 긴 컨텍스트 비용이 큼 |
 | 2021.03 | Vision-Language | [CLIP (arXiv:2103.00020)](./AI/CLIP_Natural_Language_Supervision_2103.00020.md) | 웹 스케일의 방대한 '이미지-텍스트 쌍'을 대조 학습하여 범용적 시각 모델 구축 | 자연어 프롬프트를 활용해 파인튜닝 없이도 다양한 태스크에서 Zero-shot SOTA 달성 | 자연어 지도가 강력한 사전학습 신호임을 증명하며 멀티모달의 새로운 패러다임 제시 | 세밀한 추론 및 생성형 태스크에는 취약함 |
 | 2022.12 | Speech | [Whisper (arXiv:2212.04356)](./AI/Whisper_Weak_Supervision_2212.04356.md) | 68만 시간의 노이즈 섞인 다국어 약지도 오디오 데이터를 대규모로 학습 | 특정 벤치마크 특화 없이 다양한 OOD 환경에서 견고한 Zero-shot 음성 인식 달성 | 음성 분야에서도 데이터 스케일과 학습 목표 단순화가 혁신적임을 증명 | 무음 구간 환각 및 디코딩 반복 루프의 한계 존재 |
 | 2024.10 | Multimodal | [Janus (arXiv:2410.13848)](./AI/Janus_Decoupling_Visual_Encoding_2410.13848.md) | 다중모달 이해와 생성을 위해 단일 인코더 대신 '시각 인코더 분리(Decoupling)' 방식 제안 | 기존 통합 모델의 한계(Trade-off)를 극복하고 단일 LLM으로 전용 모델을 능가 | 이해와 생성의 충돌을 해결하며 유연한 확장성을 지닌 범용 모델의 청사진 제시 | 고해상도 이미지 처리에 한계가 있음 |
@@ -16,6 +17,7 @@
 | 2026.03 | Agentic AI | [Training-Free Agentic AI (arXiv:2603.13256)](./AI/Training_Free_Agentic_AI_2603.13256.md) | 추가 학습 없이 톰슨 샘플링과 반성(Reflection)을 통해 멀티 에이전트 간 확률적 작업 위임 최적화 | 토큰 사용량 감소, 에이전트 호출 최소화, 성공까지 걸리는 시간 단축 등 라우팅 효율 극대화 | 똑똑한 오케스트레이션 로직이 비용과 성능을 결정하는 핵심임을 증명 | 개별 에이전트 성능 자체를 근본적으로 돌파하지는 못함 |
 
 ## 📝 최근 기록
+- 2026-04-15: [[Attention Is All You Need] Transformer 아키텍처의 출발점 (arXiv:1706.03762)](./AI/Attention_Is_All_You_Need_1706.03762.md)
 - 2026-04-14: [[Janus-Pro] 데이터 및 모델 스케일링을 통한 통합 다중모달 이해 및 생성 (arXiv:2501.17811)](./AI/Janus_Pro_Unified_Multimodal_2501.17811.md)
 - 2026-04-11: [[Janus] 통합 멀티모달 이해·생성을 위한 시각 인코딩 분리 (arXiv:2410.13848)](./AI/Janus_Decoupling_Visual_Encoding_2410.13848.md)
 - 2026-04-08: [[CLIP] 자연어 지도 기반 전이 학습 (arXiv:2103.00020)](./AI/CLIP_Natural_Language_Supervision_2103.00020.md)
