@@ -46,12 +46,12 @@
   - 소규모 팀이 전사급 플랫폼 패턴을 그대로 도입하면 운영 인력 부족으로 "관리되는 복잡성"이 아니라 "방치된 복잡성"이 된다.
 
 ### 5. Action Plan: Link to My Projects
-- Steam API 수집 파이프라인에 적용:
-  - 수집 단계에 schema contract + idempotent upsert를 넣어 중복/재수집 이슈를 구조적으로 제거
-  - hot/cold 분리 저장(최근 인기 지표는 hot, 원본 이벤트는 cold)로 분석 속도와 비용을 동시에 관리
-- 정책지원금 RAG/Agent 프로젝트에 적용:
-  - Context 채널 분리(작업 메모리 vs 검증 메모리)와 answer credibility score를 도입해 hallucination을 정량 관리
-  - prompt/model 버전별 회귀 테스트 세트를 두어 변경 시 품질 저하를 사전 차단
-- 공통 운영 개선:
-  - 데이터 자산별 owner, lineage, 품질 지표를 명시한 lightweight governance 문서부터 시작
-  - "AI-ready 데이터"와 "analytics-ready 데이터"를 분리 설계해 소비자(사람/모델)별 최적 경로를 운영
+- 오늘 실제로 한 일:
+  - Data Engineering Weekly #266의 주요 아티클을 읽고, 공통 패턴(신뢰성·거버넌스·비용 통제)으로 재분류했다.
+  - "모델 개선"보다 "운영 안정성"이 우선이라는 기준을 내 프로젝트 점검 항목으로 정리했다.
+- 다음 적용 항목(작게 시작):
+  - Steam API 파이프라인: `idempotent upsert` 체크리스트 1페이지 작성
+  - RAG/Agent 프로젝트: model/prompt 변경 시 회귀 테스트 5문항부터 고정
+  - 공통: 데이터 자산 owner/lineage/품질지표를 적는 lightweight 운영 문서 초안 작성
+- 한 줄 회고:
+  - 오늘은 구현보다 구조를 정리한 날이었고, 앞으로는 "AI-ready 데이터"와 "analytics-ready 데이터"를 분리해서 설계하는 기준을 유지하려 한다.
